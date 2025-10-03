@@ -10,15 +10,6 @@ ul li a{
     text-decoration: none;
 
 }
-
-nav{
-    color: black;
-
-   
-    
-   
-  
-}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
@@ -36,13 +27,23 @@ body{
 
 
 }
+.sa{
+    justify-content: flex-start;
+    top: 0%;
+    position: absolute;
+    color: aliceblue;
+}
 .nav-bar{
     position: absolute;
     top: 1px;
-    background-color: white;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
-width: 100%;
+width: 50%;
+gap: 5px;
+padding-right: 2px;
 justify-content: flex-end;
+right: 0%;
 }
+
+
